@@ -1,14 +1,34 @@
-:root {
-  --color-headings: #2E2F42;
-  --button-background-color: #404bbf;
-  --color-logo-web:#4d5ae5;
-  --color-logo-studio:#2e2f42;
+* {
+  box-sizing: border-box;
 }
+
+:root {
+  --color-headings: #2e2f42;
+  --button-background-color: #404bbf;
+  --color-logo-web: #4d5ae5;
+  --color-logo-studio: #2e2f42;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+address{font-style: normal;}
+
+img{display: block;}
 
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color:#434455;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -20,15 +40,23 @@ body {
   text-decoration: none;
 }
 
+.container{
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 /**-------------------Шаблони шрифтів-------------*/
 /*стилі лого*/
-.styles-logo{
-    font-family: 'Raleway',sans-serif;  
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;     
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.styles-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* заголовок рівня h3*/
 
@@ -36,8 +64,8 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;  
-  color: var(--color-headings,#2E2F42);
+  letter-spacing: 0.02em;
+  color: var(--color-headings, #2e2f42);
 }
 
 /*Описові тексти*/
@@ -49,16 +77,14 @@ body {
   color: #434455;
 }
 
-/**--------------HEADER-------------*/
-
-.header-logo-web {  
-  color:var(--color-logo-web,
-    #4d5ae5);
+/**--------------HEADER(Top line)-------------*/
+.header{padding-top: 24px;}
+.header-logo-web {
+  color: var(--color-logo-web, #4d5ae5);
 }
 
 .header-logo-studio {
-  color:var(--color-logo-studio,
-    #2e2f42);
+  color: var(--color-logo-studio, #2e2f42);
 }
 
 .header-address {
@@ -88,13 +114,15 @@ body {
   color: #404bbf;
 }
 
-/**----------------секція2----------------*/
+/**----------------Hero images+секція1----------------*/
 
 .vision {
-  background-color: #2e2f42;
+  background-color: #2e2f42; 
+  
 }
 
-.vision-titl {
+.vision-titl {  
+  
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -102,9 +130,10 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   background-color: #2e2f42;
+  
 }
 
-.vision-btn {
+.vision-btn {margin-top: 48px auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -116,10 +145,10 @@ body {
 }
 
 .vision-btn:is(:hover, :focus) {
-  background-color:var(--button-background-color,#404bbf) ;
+  background-color: var(--button-background-color, #404bbf);
 }
 
-/**----------------секція3------------- */
+/**----------------секція2------------- */
 
 .benefits-titl {
   font-weight: 700;
@@ -128,10 +157,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-headings,#2e2f42);
+  color: var(--color-headings, #2e2f42);
 }
 
-/**------------------секція4--------------*/
+/**------------------секція3--------------*/
 
 .team {
   background-color: #f4f4fd;
@@ -144,8 +173,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-headings,#2e2f42)
-  ;
+  color: var(--color-headings, #2e2f42);
 }
 .team-item {
   background-color: #ffffff;
@@ -161,15 +189,17 @@ body {
   color: #434455;
 }
 
-/**-----------FOOTER--------------*/
+/**-----------Footer--------------*/
 .footer {
   /*font-family: */
   background-color: #2e2f42;
 }
 
-.footer-logo-web {color: var(--color-logo-web,#4d5ae5);
+.footer-logo-web {
+  color: var(--color-logo-web, #4d5ae5);
 }
-.footer-logo-studio { color:var(--color-logo-studio,#f4f4fd);
+.footer-logo-studio {
+  color: var(--color-logo-studio, #f4f4fd);
 }
 
 .footer-text {
@@ -202,7 +232,7 @@ body {
 
 .filter-btn:is(:hover, :focus) {
   color: #ffffff;
-  background-color: var(--button-background-color,#404bbf);
+  background-color: var(--button-background-color, #404bbf);
 }
 
 .category-titl {
@@ -210,5 +240,5 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-headings,#2e2f42);
+  color: var(--color-headings, #2e2f42);
 }

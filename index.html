@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>   
-    <!--підключення гугл шрифта https://fonts.google.com/-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebStudio</title>
+
+  <!--підключення гугл шрифта https://fonts.google.com/-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&family=Tangerine:wght@700&display=swap"
     rel="stylesheet">
-     <link rel="stylesheet" href="./css/styles.css"/>
-    
-  <body>
-    <header class="header">
+  <!-- Підключаємо нормалізатор -->
+  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+
+<body>
+  <!-- TOP LINE -->
+  <header class="header">
+    <div class="container">
       <nav class="header-logo link">
-        <a   href="./index.html" class="header-logo-web styles-logo styles-logo link" >Web<span class="header-logo-studio styles-logo">Studio</span></a>
+        <a href="./index.html" class="header-logo-web styles-logo styles-logo link">Web<span
+            class="header-logo-studio styles-logo">Studio</span></a>
         <ul class="header-list list ">
           <li><a href="./index.html" class="header-item link">Studio</a></li>
           <li><a href="./portfolio.html" class="header-item link">Portfolio</a></li>
           <li><a href="" class="header-item link">Contacts</a></li>
         </ul>
       </nav>
-      <address class="header-address " >
+      <address class="header-address ">
         <ul class="list">
           <li><a href="mailto:info@devstudio.com" class="header-mail link ">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111" class="header-mail link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
-    </header>
-    <main>
-      <section class="vision">
+    </div>
+  </header>
+  <main>
+    <!---------------------- Hero image-->
+    <section class="vision">
+      <div class="container">
         <h1 class="vision-titl">Effective Solutions for Your Business</h1>
         <button type="button" class="vision-btn">Order Service</button>
-      </section>
-      <!-- секція2-->
-      <section>
+      </div>
+    </section>
+    <!----------------------- секція 1 -->
+    <section>
+      <div class="container">
         <h2 hidden class="visionstrategy">
           <!--In this section, we describe the vision of another strategy-->
         </h2>
@@ -70,90 +82,65 @@
             </p>
           </li>
         </ul>
-      </section >
-      <!--секція3-->
-      <section class="benefits ">
+      </div>
+    </section>
+    <!---------------------секція2-->
+    <section class="benefits ">
+      <div class="container">
         <h2 class="benefits-titl">What are we doing</h2>
         <ul class="benefits-list list">
           <li class="benefits-item">
-            <img
-              src="./images/rectangle71.jpg"
-              alt="monitor"
-              width="360"
-              height="300"
-            />
+            <img src="./images/rectangle71.jpg" alt="monitor" width="360" height="300" />
           </li>
           <li class="benefits-item">
-            <img
-              src="./images/rectangle711.jpg"
-              alt="telephon"
-              width="360"
-              height="300"
-            />
+            <img src="./images/rectangle711.jpg" alt="telephon" width="360" height="300" />
           </li>
           <li class="benefits-item">
-            <img
-              src="./images/rectangle712.jpg"
-              alt="monitor+telephon"
-              width="360"
-              height="300"
-            />
+            <img src="./images/rectangle712.jpg" alt="monitor+telephon" width="360" height="300" />
           </li>
         </ul>
-      </section>
-      <!--секція4-->
-      <section class="team">
+      </div>
+    </section>
+    <!---------------------------------секція3-->
+    <section class="team">
+      <div class="container">
         <h2 class="team-titl">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img
-              src="./images/img1.jpg"
-              alt="photo Product Designer "
-              width="264"
-              height="260"
-            />
-            <h3 class="team-name titl-h-three" >Mark Guerrero</h3>
+            <img src="./images/img1.jpg" alt="photo Product Designer " width="264" height="260" />
+            <h3 class="team-name titl-h-three">Mark Guerrero</h3>
             <p class="team-position main-text">Product Designer</p>
           </li>
           <li class="team-item">
-            <img
-              src="./images/img2.jpg"
-              alt="photo Frontend Developer "
-              width="264"
-              height="260"
-            />
+            <img src="./images/img2.jpg" alt="photo Frontend Developer " width="264" height="260" />
             <h3 class="team-name titl-h-three">Tom Ford</h3>
             <p class="team-position main-text">Frontend Developer</p>
           </li>
           <li class="team-item titl-h-three">
-            <img
-              src="./images/img3.jpg"
-              alt="photo Marketing "
-              width="264"
-              height="260"
-            />
+            <img src="./images/img3.jpg" alt="photo Marketing " width="264" height="260" />
             <h3 class="team-name titl-h-three">Camila Garcia</h3>
             <p class="team-position main-text">Marketing</p>
           </li>
           <li class="team-item">
-            <img
-              src="./images/img4.jpg"
-              alt="photo UI Designer "
-              width="264"
-              height="260"
-            />
+            <img src="./images/img4.jpg" alt="photo UI Designer " width="264" height="260" />
             <h3 class="team-name titl-h-three">Daniel Wilson</h3>
             <p class="team-position main-text">UI Designer</p>
           </li>
         </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <a href="./index.html" class="footer-logo-web styles-logo link">Web<span class="footer-logo-studio styles-logo">Studio </span></a>
+      </div>
+    </section>
+  </main>
+  <!------------------------------ Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="./index.html" class="footer-logo-web styles-logo link">Web<span
+          class="footer-logo-studio styles-logo">Studio </span></a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
