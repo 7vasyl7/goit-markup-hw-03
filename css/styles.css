@@ -32,7 +32,7 @@ body {
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
-  max-width: 1440px;
+  
 }
 
 .list {
@@ -44,16 +44,18 @@ body {
 }
 
 .container{
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
-.center{
-  text-align: center;
-}
+
 
 /**-------------------Шаблони шрифтів-------------*/
 /*стилі лого*/
@@ -214,9 +216,11 @@ body {
 
 .footer-logo-web {
   color: var(--color-logo-web, #4d5ae5);
+  /* padding: 100px 1013px 188px 0px; */
 }
 .footer-logo-studio {
   color: var(--color-logo-studio, #f4f4fd);
+  /* padding: 100px 1013px 188px 0px; */
 }
 
 .footer-text {
@@ -225,12 +229,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
+  }
+.footer-container{
+  text-align: left;
+  max-width: 264px;
+  padding: 100px 0 100px 0;
 }
 
 /**-------------Сторінка портфоліо--------------*/
 
 .footer-logo-studio {
   color: #f4f4fd;
+ 
 }
 
 .filter-btn {
