@@ -10,6 +10,7 @@
   --color-logo-web: #4d5ae5;
   --color-logo-studio: #2e2f42;
 }
+
 p,
 h1,
 h2,
@@ -19,20 +20,26 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding-left: 0;
 }
-address{font-style: normal;}
 
-img{display: block;}
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
-  
+  margin: 0 auto;
 }
 
 .list {
@@ -43,7 +50,7 @@ body {
   text-decoration: none;
 }
 
-.container{
+.container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -55,8 +62,6 @@ body {
   margin-right: 156px;
 }
 
-
-
 /**-------------------Шаблони шрифтів-------------*/
 /*стилі лого*/
 .styles-logo {
@@ -67,6 +72,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /* заголовок рівня h3*/
 
 .titl-h-three {
@@ -87,7 +93,10 @@ body {
 }
 
 /**--------------HEADER(Top line)-------------*/
-.header{padding-top: 24px;}
+.header {
+  padding-top: 24px;
+}
+
 .header-logo-web {
   color: var(--color-logo-web, #4d5ae5);
 }
@@ -99,6 +108,7 @@ body {
 .header-address {
   font-style: normal;
 }
+
 .header-item {
   font-weight: 500;
   font-size: 16px;
@@ -126,11 +136,10 @@ body {
 /**----------------Hero images+секція1----------------*/
 
 .vision {
-  background-color: #2e2f42; 
-  
+  background-color: #2e2f42;
 }
 
-.vision-titl {  
+.vision-titl {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -143,12 +152,13 @@ body {
   margin: auto;
 }
 
-
-
-.vision-btn { 
+.vision-btn {
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
+    padding: 16px 32px;
+    
   margin-top: 48px;
-    font-family: 'Roboto', sans-serif;
+  margin-bottom: 188px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -156,15 +166,15 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin-bottom: 188px;
-
- 
-}
+  border-radius: 4px; 
+border: 0; }
 
 .vision-btn:is(:hover, :focus) {
   background-color: var(--button-background-color, #404bbf);
 }
-.vision-container { width: 496 px;
+
+.vision-container {
+  width: 496 px;
 }
 
 /**----------------секція2------------- */
@@ -194,6 +204,7 @@ body {
   text-transform: capitalize;
   color: var(--color-headings, #2e2f42);
 }
+
 .team-item {
   background-color: #ffffff;
 }
@@ -216,12 +227,13 @@ body {
 
 .footer-logo-web {
   color: var(--color-logo-web, #4d5ae5);
-  /* padding: 100px 1013px 188px 0px; */
-}
+ padding-top: 100px;
+ margin-bottom: 16px;}
+
 .footer-logo-studio {
-  color: var(--color-logo-studio, #f4f4fd);
-  /* padding: 100px 1013px 188px 0px; */
-}
+  color: var(--color-logo-studio, #f4f4fd);padding-top: 100px;
+    margin-bottom: 16px;}6+
+  
 
 .footer-text {
   font-weight: 400;
@@ -230,18 +242,19 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
-  }
-.footer-container{
+  width: 264px;
+    padding: 100px 0;
+}
+
+.footer-container {
   text-align: left;
-  max-width: 264px;
-  padding: 100px 0 100px 0;
+  
 }
 
 /**-------------Сторінка портфоліо--------------*/
 
 .footer-logo-studio {
   color: #f4f4fd;
- 
 }
 
 .filter-btn {
