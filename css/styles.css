@@ -35,6 +35,7 @@ img {
 }
 
 body {
+  max-width: 1440px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: #434455;
@@ -56,10 +57,10 @@ body {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;  
+  margin: 0 auto;
   text-align: center;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin-left: 141px;
+  margin-right: 141px;
 }
 .section {
   padding: 120px 0;
@@ -218,8 +219,6 @@ body {
 
 /**----------------секція2------------- */
 
-.benefits { 
-}
 .benefits-titl {
   font-weight: 700;
   font-size: 36px;
@@ -239,11 +238,10 @@ body {
 /**------------------секція3--------------*/
 
 .team {
-  background-color: #f4f4fd;  
+  background-color: #f4f4fd;
 }
 
 .team-titl {
-  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -254,15 +252,20 @@ body {
   margin: auto;
   margin-bottom: 72px;
 }
-.team-list{display: flex;gap: 24px;}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .team-item {
   /* background-color: #ffffff; */
   flex-basis: calc((100%-3 * 24) / 4);
 }
 
-.team-name {margin:auto ;
-margin-top: 32px;}
+.team-name {
+  margin: auto;
+  margin-top: 32px;
+}
 
 .team-position {
   font-weight: 400;
@@ -312,6 +315,13 @@ margin-top: 32px;}
 .footer-logo-studio {
   color: #f4f4fd;
 }
+.filter-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 96px;
+  gap: 24px;
+}
 
 .filter-btn {
   font-family: inherit;
@@ -332,10 +342,44 @@ margin-top: 32px;}
   background-color: var(--button-background-color, #404bbf);
 }
 
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding-bottom: 120px;
+  margin-top: 72px;
+}
+
 .category-titl {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-headings, #2e2f42);
+  margin: auto;
+  margin-top: 32px;
+  text-align: left;
 }
+.category-text {
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+/* 
+.team-name {
+  margin: auto;
+  margin-top: 32px;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 32px;
+} */
