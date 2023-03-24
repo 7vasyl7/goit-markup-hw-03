@@ -212,7 +212,7 @@ body {
 }
 
 .visionstrategy-item {
-  flex-basis: calc((100%-3*24)/4)
+  flex-basis: calc((100%-72)/4)
 }
 
 
@@ -359,7 +359,7 @@ body {
   
 }
 .category-item {
-  flex-basis:calc((100%-2*24)/3);
+  flex-basis:calc((100%-48)/3);
 
 }
 
