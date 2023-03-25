@@ -17,13 +17,14 @@
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 
   <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
 <body>
   <!-- TOP LINE -->
-  <header class="header">
-    <div class="container section-header">
-      <nav class="header-logo link">
-        <a href="./index.html" class="header-logo-web styles-logo styles-logo link">Web<span
+  <header class="header ">
+    <div class="container header-container">
+      <nav class="header-logo link ">
+        <a href="./index.html" class="header-logo-web styles-logo styles-logo link  header-address ">Web<span
             class="header-logo-studio styles-logo">Studio</span></a>
         <ul class="header-list list ">
           <li><a href="./index.html" class="header-item link">Studio</a></li>
@@ -32,7 +33,7 @@
         </ul>
       </nav>
       <address class="header-address ">
-        <ul class="list">
+        <ul class="list header-contact">
           <li><a href="mailto:info@devstudio.com" class="header-mail link ">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111" class="header-mail link">+11 (000) 111-11-11</a></li>
         </ul>
@@ -41,14 +42,14 @@
   </header>
   <main>
     <!---------------------- Hero image-->
-    <section class="vision ">
+    <section class="visionhero">
       <div class="container">
         <h1 class="vision-titl">Effective Solutions for Your Business</h1>
         <button type="button" class="vision-btn">Order Service</button>
       </div>
     </section>
     <!----------------------- секція 1 -->
-    <section class="section strag">
+    <section class="section vision">
       <div class="container">
         <h2 hidden class="visionstrategy">
           <!--In this section, we describe the vision of another strategy-->
@@ -80,13 +81,13 @@
             <p class="visionstrategy-text main-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
-            </p>
+            </p>      
           </li>
-        </ul>
+       </ul>
       </div>
     </section>
     <!---------------------секція2-->
-    <section class="benefits section">
+    <section class="benefits section ">
       <div class="container">
         <h2 class="benefits-titl">What are we doing</h2>
         <ul class="benefits-list list">
@@ -109,37 +110,46 @@
         <ul class="team-list list">
           <li class="team-item">
             <img src="./images/img1.jpg" alt="photo Product Designer " width="264" height="260" />
-            <h3 class="team-name titl-h-three">Mark Guerrero</h3>
-            <p class="team-position main-text">Product Designer</p>
+            <div class="container-team-name">
+              <h3 class="team-name titl-h-three">Mark Guerrero</h3>
+              <p class="team-position main-text">Product Designer</p>
+            </div>
           </li>
           <li class="team-item">
             <img src="./images/img2.jpg" alt="photo Frontend Developer " width="264" height="260" />
-            <h3 class="team-name titl-h-three">Tom Ford</h3>
-            <p class="team-position main-text">Frontend Developer</p>
+            <div class="container-team-name">
+              <h3 class="team-name titl-h-three">Tom Ford</h3>
+              <p class="team-position main-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item titl-h-three">
             <img src="./images/img3.jpg" alt="photo Marketing " width="264" height="260" />
-            <h3 class="team-name titl-h-three">Camila Garcia</h3>
-            <p class="team-position main-text">Marketing</p>
+            <div class="container-team-name">
+              <h3 class="team-name titl-h-three">Camila Garcia</h3>
+              <p class="team-position main-text">Marketing</p>
           </li>
           <li class="team-item">
             <img src="./images/img4.jpg" alt="photo UI Designer " width="264" height="260" />
-            <h3 class="team-name titl-h-three">Daniel Wilson</h3>
-            <p class="team-position main-text">UI Designer</p>
+            <div class="container-team-name">
+              <h3 class="team-name titl-h-three">Daniel Wilson</h3>
+              <p class="team-position main-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
     </section>
   </main>
   <!------------------------------ Footer -->
-  <footer class="footer">
-    <div class="container footer-container ">
-      <a href="./index.html" class="footer-logo-web styles-logo link">Web<span
-          class="footer-logo-studio styles-logo">Studio </span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+  <footer class="  footer">
+    <div class="container ">
+      <div class="footer-logo">
+        <a href="./index.html" class="footer-logo-web styles-logo link">Web<span
+            class="footer-logo-studio styles-logo">Studio </span></a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with digital
+          marketing & growth solutions.
+        </p>
+      </div>
     </div>
   </footer>
 </body>
