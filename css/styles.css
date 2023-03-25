@@ -35,7 +35,7 @@ img {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
@@ -45,7 +45,7 @@ body {
 .list {
   list-style: none;
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 .link {
@@ -53,20 +53,24 @@ body {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
-  text-align: center;  
+  text-align: center;
   margin-left: 156px;
   margin-right: 156px;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 /**-------------------Шаблони шрифтів-------------*/
 /*стилі лого*/
 .styles-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -94,11 +98,17 @@ body {
 }
 
 /**--------------HEADER(Top line)-------------*/
+.strag {
+  background-color: aqua;
+  padding-bottom: 0;
+}
 .header {
- 
-  border-bottom: 1px solid #E7E9FC;
-  
-} .section-header{margin-top: 0;padding-top: 24px;}
+  border-bottom: 1px solid #e7e9fc;
+}
+.section-header {
+  margin-top: 0;
+  padding-top: 24px;
+}
 
 .header-logo-web {
   color: var(--color-logo-web, #4d5ae5);
@@ -151,16 +161,15 @@ body {
   color: #ffffff;
   background-color: #2e2f42;
   padding-top: 188px;
-  max-width: 496px;
+
   margin: auto;
 }
 
 .vision-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: inline-block;
-    padding: 16px 32px;
-    
-    
+  padding: 16px 32px;
+
   margin-top: 48px;
   margin-bottom: 188px;
   font-weight: 500;
@@ -170,19 +179,18 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
-  border-radius: 4px; 
-border: 0; }
+  border-radius: 4px;
+  border: 0;
+}
 
 .vision-btn:is(:hover, :focus) {
   background-color: var(--button-background-color, #404bbf);
 }
 
-.vision-container {
-  width: 496 px;
-}
-
 /**----------------секція2------------- */
-
+.benefits {
+  background-color: tomato;
+}
 .benefits-titl {
   font-weight: 700;
   font-size: 36px;
@@ -196,7 +204,8 @@ border: 0; }
 /**------------------секція3--------------*/
 
 .team {
-  background-color: #f4f4fd;
+  /* background-color: #f4f4fd; */
+  background-color: royalblue;
 }
 
 .team-titl {
@@ -210,7 +219,7 @@ border: 0; }
 }
 
 .team-item {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 /*.team-name {}*/
@@ -231,13 +240,14 @@ border: 0; }
 
 .footer-logo-web {
   color: var(--color-logo-web, #4d5ae5);
- 
- margin-bottom: 16px; }
+
+  margin-bottom: 16px;
+}
 
 .footer-logo-studio {
-   color: var(--color-logo-studio, #f4f4fd);
-    margin-bottom: 16px; }
- 
+  color: var(--color-logo-studio, #f4f4fd);
+  margin-bottom: 16px;
+}
 
 .footer-text {
   font-weight: 400;
@@ -247,14 +257,11 @@ border: 0; }
   color: #f4f4fd;
   margin-top: 16px;
   width: 264px;
-   
 }
 
 .footer-container {
   text-align: left;
   padding: 100px 879px 100px 15px;
-  
-  
 }
 
 /**-------------Сторінка портфоліо--------------*/
