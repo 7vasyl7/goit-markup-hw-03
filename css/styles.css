@@ -218,6 +218,9 @@ body {
 }
 
 /**----------------секція2------------- */
+.benefits {
+  padding-bottom: 120px;
+}
 
 .benefits-titl {
   font-weight: 700;
@@ -227,7 +230,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-headings, #2e2f42);
-  margin-bottom: 8px;
 }
 
 .benefits-list {
@@ -268,7 +270,7 @@ body {
 
 .container-team-name {
   background-color: var(--color-team-name, #ffffff);
-  padding: 32px 16px;
+  padding: 32px;
   text-align: center;
 }
 
@@ -285,6 +287,8 @@ body {
 .footer {
   /*font-family: */
   background-color: var(--background-color-vision, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-web {
@@ -305,8 +309,6 @@ body {
 }
 .footer-logo {
   max-width: 264px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /**-------------Сторінка портфоліо--------------*/
@@ -336,6 +338,7 @@ body {
   cursor: pointer;
   border: 1px solid var(--color-card-border, #e7e9fc);
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .filter-btn:is(:hover, :focus) {
@@ -368,7 +371,6 @@ body {
 .category-text {
   margin: auto;
   margin-top: 8px;
-
   text-align: left;
 }
 
@@ -376,6 +378,6 @@ body {
   padding-top: 32px;
   padding-left: 16px;
   padding-bottom: 32px;
-
   border: 1px solid var(--color-card-border, #e7e9fc);
+  border-top: none;
 }
