@@ -67,7 +67,7 @@ body {
 }
 .section {
   padding-top: 120px;
-  padding-bottom: 0;
+  padding-bottom: 120px;
 }
 
 /**-------------------Шаблони шрифтів-------------*/
@@ -165,7 +165,9 @@ body {
 }
 
 /**----------------Hero images+секція1----------------*/
-
+.vision {
+  padding-bottom: 0;
+}
 .visionhero {
   background-color: var(--background-color-vision, #2e2f42);
   padding-top: 188px;
@@ -218,9 +220,6 @@ body {
 }
 
 /**----------------секція2------------- */
-.benefits {
-  padding-bottom: 120px;
-}
 
 .benefits-titl {
   font-weight: 700;
@@ -245,7 +244,6 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
 }
 
 .team-titl {
